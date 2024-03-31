@@ -28,7 +28,9 @@ drop=0
 returnseq=0
 bidi=0
 
-dataset = pd.read_csv("https://github.com/sidd2305/DynamicLSTM/blob/5e054d621262f5971ba1a5b54d8e7ec6b9573baf/hu.csv")
+
+url = "https://raw.githubusercontent.com/sidd2305/DynamicLSTM/5e054d621262f5971ba1a5b54d8e7ec6b9573baf/hu.csv"
+dataset = pd.read_csv(url)
 
 class KNNUnsupervised:
     def __init__(self, k):
