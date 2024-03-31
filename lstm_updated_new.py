@@ -418,7 +418,7 @@ def train_regression_model(df):
     st.write("LSTM Layers",output_array_l)
     st.write("Dense Layers",output_array_d)
 
-    st.write("While we train,here`s a video that should keep you entertained while our algorithm works behind the scenes🎞️!")
+    st.write("While we train,here's a video that should keep you entertained while our algorithm works behind the scenes🎞️!")
     st.write("I mean,who doesn`t like a friends episode?🤔👬🏻👭🏻🫂")
     video_url = "https://www.youtube.com/watch?v=nvzkHGNdtfk&pp=ygUcZnJpZW5kcyBlcGlzb2RlIGZ1bm55IHNjZW5lcw%3D%3D"  # Example YouTube video URL
     st.video(video_url)
