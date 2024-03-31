@@ -343,7 +343,7 @@ def build_model(layer_sizes, dense_layers, return_sequence, bidirectional, dropo
     model.add(Dense(1))  # Example output layer, adjust as needed
 
     model.compile(optimizer='adam', loss='mse')  # Compile the model
-    model.build((None, None, layer_sizes[0]))  # Explicitly build the model
+    model.build((None,X_train.shape[1], 1))  # Explicitly build the model
 
     return model
 
