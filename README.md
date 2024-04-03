@@ -47,8 +47,8 @@ The user-friendly interface of the Streamlit application offers a seamless devel
 4. **Model Training**: Select features for input and output, choose scaler options, and train the LSTM regression model.
 5. **Model Evaluation**: View training and validation loss, and download the trained model for future use.
 
-##Direct Access
-You can directly utilize this application via this [link](lstmdynamicsidd.streamlit.app/)
+## Direct Access
+You can directly utilize this application via this [link](https://lstmdynamicsidd.streamlit.app/).
 
-##Contributions
+## Contributions
 Contributions are welcome! Please feel free to open issues or pull requests for any improvements or bug fixes.
